@@ -5,6 +5,7 @@ TEMPLATE_DEBUG = DEBUG
 
 INSTALLED_APPS += (
     'django_nose',
+    'coverage',
 )
 
 DATABASES = {
