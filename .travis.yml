@@ -1,8 +1,9 @@
 sudo: false
 language: python
 python:
-  - "3.4.2"
+  - "3.4."
 install:
+  - pip install -U pip wheel
   - "pip install -r requirements/dev.txt"
   - pip install coveralls==0.4.4
 env:
